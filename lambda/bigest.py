@@ -1,0 +1,3 @@
+#in lambda if we use (if comdition then then first write what to print then write if a>c etc....
+n=lambda a,c:a if a>c else c
+print(n(10,8))

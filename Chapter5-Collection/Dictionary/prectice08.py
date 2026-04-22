@@ -1,0 +1,9 @@
+name={
+    "c":4,
+    "f":9,
+    "d":2
+}
+name.pop("c")
+print(name)
+name.popitem()
+print(name)

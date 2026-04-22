@@ -1,0 +1,10 @@
+f=open("prectice.txt","w")
+f.close()
+
+f=open("prectice.txt","w")
+d=f.write('''Hello everyone\nwe are leaeing File I/O\nusing java.\nI like programming in java''')
+print(d)
+f.open("D:\PYTHON\prectice.txt","r")
+d=f.read()
+d.replace("java","python")
+print(d)

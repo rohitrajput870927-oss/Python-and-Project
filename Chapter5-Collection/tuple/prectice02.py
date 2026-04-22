@@ -1,0 +1,5 @@
+list=(2,2,3,4,5,6,7,8,9,10)
+print(list[1])
+print(list[-1])
+print(list[2:6])
+print(list[-9:-1])

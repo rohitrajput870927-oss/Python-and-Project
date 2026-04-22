@@ -1,0 +1,12 @@
+set1={68,30,20,70,50}
+set2={2,30,49,70}
+print(len(set1))
+print(len(set2))
+set1.update(set2)
+print(set1)
+r=list(set1)
+print(r)
+set1.remove(68)
+print(set1)
+set2.discard(68)
+print(set2)

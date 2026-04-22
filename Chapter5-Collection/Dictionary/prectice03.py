@@ -1,0 +1,14 @@
+name={
+    "name":"sagar",
+    "roll":3432,
+    "class":23
+}
+print(name.keys())
+print(name)
+print(name["name"])
+print(name["roll"])
+print(name["class"])
+name["phone"]=123209
+print(name)
+name["Buty"]="muthhi"
+print(name)

@@ -1,0 +1,10 @@
+l=[1,3,2,4,5]
+l2=[3,2,40,20,5]
+l3=[4,3,2,90]
+s1=set(l)
+s2=set(l2)
+s3=set(l3)
+s4=s1.intersection(s2)
+print(s4)
+s5=s4.intersection(s3)
+print(s5)

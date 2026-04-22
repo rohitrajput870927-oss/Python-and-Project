@@ -1,0 +1,24 @@
+rohan={
+    "name":"Rohan",
+    "Roll":4522,
+    "City":"patna"
+
+}
+print(rohan["name"])
+print(rohan["Roll"])
+print(rohan["City"])
+print(rohan.keys())
+rohit={
+    "name":"Rohit",
+    "Roll":34321,
+    "City":"delhi"
+}
+print(rohit.keys())
+print(rohit)
+print(rohit["name"])
+print(rohit["Roll"])
+print(rohit["City"])
+rohit["class"]=231
+print(rohit)
+rohit["Gu"]="Noida"
+print(rohit)
